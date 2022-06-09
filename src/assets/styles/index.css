@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.is-invalid{
+    border-color: #DC2626
+}
+
+.tooltip{
+    visibility: hidden;
+    position: absolute;
+  }
+  .has-tooltip:hover .tooltip {
+    visibility: visible;
+    z-index: 100;
+  }
